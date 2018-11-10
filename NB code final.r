@@ -3,7 +3,7 @@
 
 
 # generate a data frame from the list of tweets
-require(twitteR)
+require(twitteR,Python)
 twtsdf<- twListToDF(abortion_tweets)
 
 twtsdf$hash<- hash
