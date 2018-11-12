@@ -1,6 +1,7 @@
 # NB Code
 #####################################################################
 
+train_test_split:
 
 # generate a data frame from the list of tweets
 require(twitteR,Python)
